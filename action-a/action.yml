@@ -7,6 +7,10 @@ inputs:
     description: "Who to greet"
     required: true
     default: "World"
+  ANOTHER_INPUT:
+    description: "Just another input"
+    required: true
+    default: "$(date +%F)"
 
 runs:
   using: "docker"
